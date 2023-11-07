@@ -1,0 +1,87 @@
+
+.weather-app {
+    background-image: url(../weather-app/img/weather.png);
+    width: 1300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.weather-container {
+    background-color: azure;
+    width: 300px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    position: relative;
+}
+
+
+.input-section {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+
+
+.location-input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.location-button {
+    color: white;
+    background-color: #7cb9d7;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.weather-details {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.condition-image {
+    width: 24px;
+    height: 24px;
+}
+
+.city-info {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.city-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.condition-info {
+    text-align: center;
+    padding: 10px;
+}
+
+.condition, .temperature, .wind-speed {
+    font-size: 16px;
+    margin: 5px;
+}
